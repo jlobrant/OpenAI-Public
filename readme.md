@@ -16,3 +16,10 @@ In this use case we are using GPT-4 Vision to extract all necessary information 
 
 File: [purchaseOrder-gpt4v-demo.ipynb](purchaseOrder-gpt4v-demo.ipynb)
 
+## Configurations
+
+Configure the [template.env](template.env) file accordingly. You need to provide endpoint, key, model name and deployment values in order to run the demos sucessfully.
+
+### Service Deployment instructions
+
+Will be updated soon!!!
