@@ -4,15 +4,15 @@ We currently have two use cases in this repository
 
 ### Call Center Analytics:
 
-We will use the Whisper model to get the transcript from a call and send to GPT-4 to analyze the call.
+We will use the Whisper model to take a transcript of a call and send it to GPT-4 to analyze the call.
 
-The ideia is to evaluate the agent performance asking the model to analyze some tasks. You can explore this use case further with your own audio files and provide the tasks you want to assess
+The idea is to evaluate the agent's performance by asking the model to analyze some tasks. You can further explore this use case with your own audio files and provide the tasks you want to evaluate
 
 File: [Speech-CallCenterAnalytics-demo.ipynb](Speech-CallCenterAnalytics-demo.ipynb)
 
 ### Purchase Order information extraction:
 
-In this use case we are using GPT-4 Vision to extract all necessary information from a Purchase Order and format the output in JSON format. That way we can automate the process of identifying all the information from the PO
+In this use case, we are using GPT-4 Vision to extract all the necessary information from a purchase order and format the output in JSON format. This way we can automate the identification process of all PO information
 
 File: [purchaseOrder-gpt4v-demo.ipynb](purchaseOrder-gpt4v-demo.ipynb)
 
