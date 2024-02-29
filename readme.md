@@ -44,5 +44,13 @@ Same for openai_api_endpoint
 
 This is what env.env should look like:
 
-![image](https://github.com/jlobrant/OpenAI-Public/assets/31459994/eda6a95a-02a4-4078-9538-61ac5e6c1f31)
+![image](https://github.com/jlobrant/OpenAI-Public/assets/31459994/84a57aeb-4fa3-42c4-a029-4736f221d41e)
 
+You might have multiple deployments in different regions due to current model availability. Example:
+
+- Whisper model is only available in North Central US or West Europe (as of Feb 29 2024)
+- GPT-4 Vision is only available in Sweden Central, West US, Japan East, Switzerland North and Australia East (as of Feb 29 2024)
+
+Note: You can use GPT-4 Vision for Vision and as the defaul model for completion too.
+
+Use this link to be check the current situation: [https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)
