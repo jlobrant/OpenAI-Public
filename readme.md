@@ -51,6 +51,6 @@ You might have multiple deployments in different regions due to current model av
 - Whisper model is only available in North Central US or West Europe (as of Feb 29 2024)
 - GPT-4 Vision is only available in Sweden Central, West US, Japan East, Switzerland North and Australia East (as of Feb 29 2024)
 
-Note: You can use GPT-4 Vision for vision use cases and as the defaul model for completion too.
+Note: You can use GPT-4 Vision for vision use cases and as the defaul model for completion too, but follow the instructions above about the endpoint format.
 
 Use this link to be check the current situation: [https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)
