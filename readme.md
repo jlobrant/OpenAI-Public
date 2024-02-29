@@ -22,4 +22,27 @@ Configure the [template.env](template.env) file accordingly. You need to provide
 
 ### Service Deployment instructions
 
-Will be updated soon!!!
+Guide for model deployment: [https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal[(https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)
+
+#### Quick instructions about env.env file:
+
+#### For Vision endpoint you need to put the value in the following format:
+
+```yaml annotate
+openai_completion_endpoint_vision = "https://{your_service_endpoint}.openai.azure.com/openai/deployments/{deployment}/extensions/chat/completions?api-version=2023-07-01-preview"
+```
+
+Do the same for the openai_completion_endpoint
+
+#### For the Whisper you need to use the base url:
+
+```yaml annotate
+openai_completion_endpoint_whisper = "https://{your_service_endpoint}.openai.azure.com/"
+```
+
+Same for openai_api_endpoint
+
+This is what env.env should look like:
+
+![image](https://github.com/jlobrant/OpenAI-Public/assets/31459994/eda6a95a-02a4-4078-9538-61ac5e6c1f31)
+
