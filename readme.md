@@ -16,6 +16,12 @@ In this use case, we are using GPT-4 Vision to extract all the necessary informa
 
 File: [purchaseOrder-gpt4v-demo.ipynb](purchaseOrder-gpt4v-demo.ipynb)
 
+### (New) Purchase Order using Assistant API v2:
+
+05-28-24: This example covers the new File Search capability in Assistant API V2. You will upload a PDF file into the new vector search object, containing all purchase order information that will be extracted according to the prompt.
+
+File: [purchaseOrder-assistant-v2-file-assist.ipynb](purchaseOrder-assistant-v2-file-assist.ipynb)
+
 ## Configurations
 
 Configure the [template.env](template.env) file accordingly. You need to provide endpoint, key, model name and deployment values in order to run the demos sucessfully.
